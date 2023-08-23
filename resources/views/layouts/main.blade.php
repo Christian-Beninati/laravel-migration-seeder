@@ -8,6 +8,13 @@
     <title>{{ env('APP_NAME') }} | @yield('title')</title>
 </head>
 
+{{-- Style --}}
+<style>
+    body {
+        display: none
+    }
+</style>
+
 {{-- Import asset --}}
 @vite('resources/js/app.js')
 
